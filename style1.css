@@ -17,6 +17,7 @@ div.content {
     width: 100px;
     height: 100px;
     float: left;
+    border-radius: 50%;
 }
 header {
     color: black;
@@ -39,4 +40,13 @@ h2 {
     max-width: 960px;
     margin: 0 auto;
     padding: 50px;
+}
+div.listOfLinks {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: rgbrgb(1, 0, 150);
+    padding: 20px;
+}
+div.listOfLinks a {
+    color: rgb(95, 14, 77);
 }
