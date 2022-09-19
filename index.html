@@ -8,13 +8,62 @@
   <div class="header1">
       <div class="content">
           <header>
-          <img id="logo" src="https://w7.pngwing.com/pngs/27/375/png-transparent-round-logo-computer-icons-web-button-internet-web-design-text-logo.png" alt="Лого">
+          <img id="logo" src="https://add-groups.com/uploads/mini/short/0a/24701_original.jpg" alt="Лого">
               WEB-proger</header>
       </div>
   <div id="navigation">
   <nav>
       <a href="#link1">Список гиперссылок</a> | <a href="#link2">Таблица</a> | <a href="#link3">Форма</a>
   </nav>
+  </div>
+  <div class="listOfLinks">
+    <h2 id="link1">Список гиперссылок:</h2>
+    <ol>
+        <li><a href="http://www.kubsu.ru">абсолютную гиперссылку на главную страницу сайта Кубгу</a></li>
+        <li><a href="https://kubsu.ru/">абсолютную на главную сайта Кубгу в протоколе https(https)</a></li>
+        <li><a href="ftp://www.mysite.ru/my_files/file_1">ссылку на файл на сервере FTP без авторизации</a></li>
+        <li><a href="ftp://user:myParol@mysite.ru/my_files/file_2">ссылку на файл на сервере FTP с авторизацией</a></li>
+        <li><a href="https://www.kubsu.ru/ru/abiturient#main-content">ссылку на фрагмент страницы КубГу</a></li>
+        <li><a href="#Hello">ссылку на фрагмент текущей страницы</a></li>
+        <li><a href="https://yandex.ru/search/?lr=35&search_source=morda_desktop_common">ссылка с двумя параметрами в URL</a></li>
+        <li><span>список ссылок основной навигации сайта с подписями title:</span></li>
+        <ul>
+            <li><a href="https://www.kubsu.ru/ru/university">Университет</a></li>
+            <li><a href="https://www.kubsu.ru/ru/education">Образование</a></li>
+            <li><a href="https://www.kubsu.ru/ru/science">Наука и инновации</a></li>
+            <li><a href="https://www.kubsu.ru/ru/abiturient">Абитуриентам</a></li>
+            <li><a href="https://www.kubsu.ru/ru/studlife">Студентам</a></li>
+        </ul>
+        <li><a>ссылку без href</a></li>
+        <li><a href="">ссылку с пустым href</a></li>
+        <li><a href="https://www.kubsu.ru" rel="nofollow">ссылку, по которой запрещен переход поисковикам</a></li>
+        <li><a href="https://www.kubsu.ru">
+        <!--noindex-->
+            запрещенную для индексации поисковиками
+        <!--/noindex-->
+        </a></li>
+        <li><span>
+        Контекстную
+        <a href="https://www.kubsu.ru">ссылку</a>
+        в середине абзаца
+        </span></li>
+        <li><a href="https://www.kubsu.ru">
+        <img src="https://www.winetourbooking.com/wp-content/uploads/2014/12/Internet1.jpg" alt="HTML5" width="200">
+        </a></li>
+        <li><span>ссылки из прямоугольных и круглых областей картинки (HTML-тег map);</span></li>
+        <img src="https://megabook.ru/stream/mediapreview?Key=Фигура%20(геометрические%20фигуры)&Width=654&Height=654" width="200" alt="Geoms" usemap="#unit">
+        <map name="unit">
+            <area shape="rect" coords="20,20,80,80" href="https://www.kubsu.ru/ru/university">
+            <area shape="circle" coords="142,84,38" href="https://www.kubsu.ru/ru/education">
+            <area shape="poly" coords="38,160,78,98,120,160" href="https://www.kubsu.ru/ru/science">
+        </map>
+        <li><a href="page">относительную на страницу в текущем каталоге;</a></li>
+        <li><a href="about/page">относительную на страницу в каталоге about;</a></li>
+        <li><a href="../page">относительную на страницу в каталоге уровнем выше текущего;</a></li>
+        <li><a href="../../page">относительную на страницу в каталоге двумя уровнями выше;</a></li>
+        <li><a href="/">сокращенную на главную;</a></li>
+        <li><a href="/page">сокращенную ссылку на внутреннюю.</a></li>
+      </ol>
   </div>
 </body>
 </html>
