@@ -39,13 +39,13 @@ h2 {
 #navigation {
     max-width: 960px;
     margin: 0 auto;
-    padding: 50px;
+    padding: 30px;
 }
 div.list {
     max-width: 960px;
     margin: 0 auto;
     background-color: rgbrgb(1, 0, 150);
-    padding: 20px;
+    padding: 10px;
 }
 div.list a {
     color: rgb(95, 14, 77);
